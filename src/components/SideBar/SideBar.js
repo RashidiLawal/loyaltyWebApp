@@ -9,22 +9,25 @@ export const SideBar = () => {
         <nav>
             <ul>
             <li>
-            <a href="">Overview</a>
+            <a href="overview">Overview</a>
             </li>
             <li>
-            <a href="">Products</a>
+            <a href="products">Products</a>
             </li>
             <li>
-            <a href="">Order</a>
+            <a href="order">Order</a>
             </li>
             <li>
-            <a href="">Customers</a>
+            <a href="customers">Customers</a>
             </li>
             <li>
-            <a href="">Promotion</a>
+            <a href="promotion">Promotion</a>
             </li>
             <li>
-            <a href="">Settings</a>
+            <a href="settings">Settings</a>
+            </li>
+            <li>
+            <a href="logout">Logout</a>
             </li>
             </ul>
         </nav>

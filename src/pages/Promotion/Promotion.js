@@ -1,7 +1,8 @@
 import React from 'react'
 
-export const Promotion = () => {
+const Promotion = () => {
   return (
     <div>Promotion</div>
   )
 }
+export default Promotion;
