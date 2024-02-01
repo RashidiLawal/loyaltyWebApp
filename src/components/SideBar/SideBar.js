@@ -1,12 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Icon from '../Tags/Icon'
 
 export const SideBar = () => {
   return (
     <aside>
-        <h2>
-            company Logo
-        </h2>
+        <fieldset>
+        <Icon url={'/images/birdies.svg'}/>
+        </fieldset>
+        
         <nav className='side-nav'>
             <ul className='unordered-lists'>
             <li>
