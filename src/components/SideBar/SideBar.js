@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const SideBar = () => {
   return (
@@ -9,25 +10,25 @@ export const SideBar = () => {
         <nav>
             <ul>
             <li>
-            <a href="overview">Overview</a>
+            <Link to="overview">Overview</Link>
             </li>
             <li>
-            <a href="products">Products</a>
+            <Link to="products">Products</Link>
             </li>
             <li>
-            <a href="order">Order</a>
+            <Link to="order">Order</Link>
             </li>
             <li>
-            <a href="customers">Customers</a>
+            <Link to="customers">Customers</Link>
             </li>
             <li>
-            <a href="promotion">Promotion</a>
+            <Link to="promotion">Promotion</Link>
             </li>
             <li>
-            <a href="settings">Settings</a>
+            <Link to="settings">Settings</Link>
             </li>
             <li>
-            <a href="logout">Logout</a>
+            <Link to="logout">Logout</Link>
             </li>
             </ul>
         </nav>
