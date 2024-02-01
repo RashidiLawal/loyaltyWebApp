@@ -8,7 +8,7 @@ export const SideBar = () => {
             company Logo
         </h2>
         <nav>
-            <ul>
+            <ul className='unordered-lists'>
             <li>
             <Link to="overview">Overview</Link>
             </li>
