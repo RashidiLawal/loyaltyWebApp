@@ -7,7 +7,7 @@ export const SideBar = () => {
         <h2>
             company Logo
         </h2>
-        <nav>
+        <nav className='side-nav'>
             <ul className='unordered-lists'>
             <li>
             <Link to="overview">Overview</Link>
